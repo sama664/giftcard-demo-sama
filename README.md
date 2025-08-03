@@ -58,14 +58,14 @@ The simplest way to run the app is by using the Spring-boot maven plugin:
 However, if you have copied the jar file `giftcard-demo-4.8.jar` from the Maven `target` directory to some other location, you can also start it with:
 
 ```
-java -jar giftcard-demo-4.8.jar
+java -jar giftcard-demo-4.11.jar
 ```
 The Web GUI can be found at [`http://localhost:8080`](http://localhost:8080).
 
 If you want to activate only the `command` profile, use:
 
 ```
-java -Dspring.profiles.active=command -jar giftcard-demo-4.8.jar
+java -Dspring.profiles.active=command -jar giftcard-demo-4.11.jar
 ```
 Idem for `query` and `gui`.
 
